@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.fundo{    
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+.calculadora{    
+    display: flex;
+    top: 50%;
+    left: 50%
+    position: absolute;
+    padding: 30px;
+    height: 60vh;
+    width: 60vh;
+    background-color: rgb(236, 255, 184);
+}
