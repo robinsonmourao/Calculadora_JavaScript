@@ -1,4 +1,29 @@
-let hour = 01;
+function inserir(numeroInsertInput){
+    var numero = document.getElementById("resultado").innerHTML;
+    document.getElementById('resultado').innerHTML = numero + numeroInsertInput;
+    /* Não pode pega pelo nome pois tem que ser um numero */
+}
+function limpar(){
+    document.getElementsById('resultado').innerHTML = "";
+}
+function voltar(){
+    var numeroVoltar = document.getElementById("resultado").innerHTML;
+    document.getElementById("resultado").innerHTML = numeroVoltar.substring(0, numeroVoltar.length - 1);
+}
+function calcular(){
+    var resultadoCalcular = document.getElementsById('resultado').innerHTML;
+    if(resultadoCalcular){
+        document.getElementsById('resultado').innerHTML = eval(resultadoCalcular);
+    } else {
+        document.getElementsById('resultado').innerHTML = "vazio";
+    }
+}
+
+
+
+
+
+/*let hour = 01;
 
 if(hour >= 00 && hour <12){
     return "Bom dia!"
@@ -9,3 +34,4 @@ else if(hour <= 12 && < 18){
 else{
     return "Boa noite!"
 }
+*/
