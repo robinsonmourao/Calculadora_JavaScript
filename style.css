@@ -10,7 +10,7 @@
 }
 .calculadora{
     position: absolute;
-    background-color: blueviolet;
+    background-color: rgba(180,130,255,0.7);
     border-radius: 5%;
     padding: 10px;
     
@@ -20,31 +20,27 @@
     height: 50px;
     font-size: 25px;
     cursor: pointer;
-    color: white;
+    /*background-image: linear-gradient(30deg, gray, white);*/
+    color: rgb(255, 255, 255);
     background-color: black;
     border: none;
     margin: 1px;
     font-weight: bolder;
-}
-.linha1{
-    transform: translate(25%, 0%);
-
+    border-radius: 15%;
 }
 .botao:hover{/* quando passa o mouse emcima */
     background-color: lime;
     color: black;
 }
-.botao{
-    border-radius: 15%;
-}
 #resultado{
-    width: 100%;
-    background-color: white;
-    height: 30px;
+    width: 100%;    
+    background-image: linear-gradient(175deg, rgb(179, 179, 179), white);
+    height: 60px;
     color: black;
     font-weight: bold;
     font-size: inherit;
     text-align: right;
     margin-bottom: 5%;
     border-radius: 4%;
+    font-size:x-large;
 }
