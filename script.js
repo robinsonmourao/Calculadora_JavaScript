@@ -1,20 +1,30 @@
-function inserir(numeroInsertInput){
-    var numero = document.getElementById("resultado").innerHTML;
+var numero;
+
+function inserir(numeroInsertInput) {
+    numero = document.getElementById("resultado").innerHTML;
     document.getElementById('resultado').innerHTML = numero + numeroInsertInput;
 }
-function voltar(){
-    var numeroVoltar = document.getElementById("resultado").innerHTML;
-    document.getElementById('resultado').innerHTML = numeroVoltar.substring(0, numeroVoltar.length -1);
+function voltar() {
+    numero = document.getElementById("resultado").innerHTML;
+    document.getElementById('resultado').innerHTML = numero.substring(0, numero.length - 1);
 }
-function limpar(){
-    document.getElementsById('resultado').innerHTML = "";
+function limpar() {
+    document.getElementById('resultado').innerHTML = '';
 }
-function calcular(){
-    var resultadoCalcular = document.getElementsById('resultado').innerHTML;
+function calcular() {
+    numero = document.getElementById('resultado').innerHTML;
 
-    if(resultadoCalcular){
-        document.getElementsById('resultado').innerHTML = eval(resultadoCalcular);
+    if (numero) {
+        document.getElementById('resultado').innerHTML = eval(numero);
     } else {
-        document.getElementsById('resultado').innerHTML = "vazio";
+        document.getElementById('resultado').innerHTML = "0";
     }
+}
+function raizQuadrada(numeroInsertInput) {
+    if (numeroInsertInput) {
+        document.getElementById("resultado").innerHTML = Math.sqrt(numeroInsertInput);
+    } else {
+        document.getElementById('resultado').innerHTML = "0";
+    }
+
 }

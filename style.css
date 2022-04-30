@@ -2,6 +2,11 @@
     margin: 0;
     padding: 0;
 }
+@font-face{
+    font-family: fonte digital;
+    src: url('technology.regular.ttf') format('truetype');
+    
+}
 .fundo{    
     background-color: black;
     height: 100vh;
@@ -12,7 +17,7 @@
     position: absolute;
     background-color: rgb(86, 137, 179);
     border-radius: 5%;
-    padding: 10px;
+    padding: 5px;
     
 }
 .botao{
@@ -24,7 +29,7 @@
     color: rgb(255, 255, 255);
     background-color: black;
     border: none;
-    margin: 1px;
+    margin: 1%;
     font-weight: bolder;
     border-radius: 15%;
 }
@@ -41,7 +46,7 @@
     color: rgb(0, 0, 0);
     background-color: black;
     border: none;
-    margin: 1px;
+    margin: 1%;
     font-weight: bolder;
     border-radius: 15%;
     background-color: orange;
@@ -59,12 +64,30 @@
     color: rgb(0, 0, 0);
     background-color: black;
     border: none;
-    margin: 1px;
+    margin: 1%;
     font-weight: bolder;
     border-radius: 15%;
     background-color: rgb(255, 0, 0);
 }
 .botaoIgual:hover{
+    background-color: lime;
+    color: black;
+}
+.raizBotao{
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    /*background-image: linear-gradient(30deg, gray, white);*/
+    color: rgb(0, 0, 0);
+    background-color: black;
+    border: none;
+    margin: 1%;
+    font-weight: bolder;
+    border-radius: 15%;
+    background-color: orange;
+}
+.raizBotao:hover{
     background-color: lime;
     color: black;
 }
@@ -74,11 +97,14 @@
     background-color: rgb(146, 161, 147);
     height: 60px;
     color: black;    
-    text-align: right;
+    text-align:right;
     margin-bottom: 5%;
-    font-weight: bold;
-    font-size:300%;
-    border-radius: 4%;    
+    font-family: fonte digital;
+    font-weight:1000;
+    font-size:330%;
+    
+    transform: translate(-3px);
+    border-radius: 7%;   
     border-style: solid;
     border-color: rgb(102, 102, 102);
 }
