@@ -11,14 +11,14 @@
     background-color: black;
     height: 100vh;
     color: white;
+    
 
 }
 .calculadora{
-    position: absolute;
+    position:absolute;
     background-color: rgb(86, 137, 179);
     border-radius: 5%;
-    padding: 5px;
-    
+    padding: 5px;    
 }
 .botao{
     width: 50px;
@@ -73,12 +73,18 @@
     background-color: lime;
     color: black;
 }
+/*
+.linha{
+    display: flex;
+    justify-content: flex-end;
+}
+
 .raizBotao{
     width: 50px;
     height: 50px;
     font-size: 25px;
     cursor: pointer;
-    /*background-image: linear-gradient(30deg, gray, white);*/
+    //background-image: linear-gradient(30deg, gray, white);
     color: rgb(0, 0, 0);
     background-color: black;
     border: none;
@@ -90,7 +96,7 @@
 .raizBotao:hover{
     background-color: lime;
     color: black;
-}
+}*/
 
 #resultado{
     width: 100%;    

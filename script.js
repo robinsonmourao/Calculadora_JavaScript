@@ -1,5 +1,6 @@
 var numero;
 
+/*renomerar uma variavel numero para cada funcao*/
 function inserir(numeroInsertInput) {
     numero = document.getElementById("resultado").innerHTML;
     document.getElementById('resultado').innerHTML = numero + numeroInsertInput;
@@ -16,15 +17,11 @@ function calcular() {
 
     if (numero) {
         document.getElementById('resultado').innerHTML = eval(numero);
-    } else {
-        document.getElementById('resultado').innerHTML = "0";
     }
 }
+/*
 function raizQuadrada(numeroInsertInput) {
     if (numeroInsertInput) {
         document.getElementById("resultado").innerHTML = Math.sqrt(numeroInsertInput);
-    } else {
-        document.getElementById('resultado').innerHTML = "0";
     }
-
-}
+}*/

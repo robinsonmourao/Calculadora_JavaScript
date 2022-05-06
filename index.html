@@ -15,39 +15,43 @@
         <div class="calculadora">
             <h3 align="center" style="color:rgb(0, 0, 0)">Calculadora</h3>
             <p id="resultado">0</p>
-            <table>
-                <tr class="linha1">
+            <table class = "tabela" >
+                <tr class="linha">
                     <td><button class = "botaoOperador" onclick="limpar()">C</button></td> 
                     <td><button class = "botaoOperador" onclick="voltar()">CE</button></td>                    
-                    <td><button class = "raizBotao" onclick="raizQuadrada('√')">√</button></td>                                     
+                    <!-- <td><button class = "raizBotao" onclick="raizQuadrada('√')">√</button></td> -->                                     
                     <td><button class = "botaoOperador" onclick="inserir('/')">/</button></td>
+                    <td><button class = "botaoOperador" onclick="inserir('*')">*</button></td>
                 </tr>
-                <tr class="linha2">
+                <tr class="linha">
                     <td><button class = "botao" onclick="inserir('9')">9</button></td>
                     <td><button class = "botao" onclick="inserir('8')">8</button></td>
                     <td><button class = "botao" onclick="inserir('7')">7</button></td>
-                    <td><button class = "botaoOperador" onclick="inserir('*')">*</button></td>
+                    
+                    
+                    <td><button class = "botaoOperador" onclick="inserir('-')">-</button></td>
                 </tr>
-                <tr class="linha3">
+                <tr class="linha">
                     <td><button class = "botao" onclick="inserir('4')">4</button></td>
                     <td><button class = "botao" onclick="inserir('5')">5</button></td>
                     <td><button class = "botao" onclick="inserir('6')">6</button></td>
-                    <td><button class = "botaoOperador" onclick="inserir('-')">-</button></td>
+                    <td><button class = "botaoOperador" onclick="inserir('+')">+</button></td>
                 </tr>
-                <tr class="linha4">
+                <tr class="linha">
                     <td><button class = "botao" onclick="inserir('1')">1</button></td>
                     <td><button class = "botao" onclick="inserir('2')">2</button></td>
                     <td><button class = "botao" onclick="inserir('3')">3</button></td>
-                    <td><button class = "botaoOperador" onclick="inserir('+')">+</button></td>
-                </tr>
-                <tr class="linha5">
-                    <td><button class = "botao" onclick="inserir('0')">0</button></td>
-                    <td><button class = "botao" onclick="inserir('.')">.</button></td>      
-                    <td><button class = "botaoIgual" onclick="calcular('=')">=</button></td>              
-                    <td><button class = "botaoOperador" onclick="inserir('%')">%</button></td>
+                    <td rowspan="2"><button class = "botaoIgual" style="height: 104px" onclick = "calcular('=')">=</button></td>
                     
                 </tr>
-        </div>
+                <tr class="linha">
+                    <td colspan="2"><button class = "botao" style="width: 100%" onclick= "inserir('0')">0</button></td>
+                    <td><button class = "botao" onclick="inserir('.')">.</button></td>      
+                                  
+                    <!--<td><button class = "botaoOperador" onclick="inserir('%')">%</button></td>-->
+                    
+                </tr>
+        </table>
     </div>
 </body>
 
