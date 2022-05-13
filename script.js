@@ -2,8 +2,14 @@ var numero;
 
 /*renomerar uma variavel numero para cada funcao*/
 function inserir(numeroInsertInput) {
-    numero = document.getElementById("resultado").innerHTML;
-    document.getElementById('resultado').innerHTML = numero + numeroInsertInput;
+    if(document.getElementById('resultado').innerHTML == "0"){
+        limpar();
+        numero = document.getElementById("resultado").innerHTML;
+        document.getElementById('resultado').innerHTML = numero + numeroInsertInput;
+    } else {
+        numero = document.getElementById("resultado").innerHTML;
+        document.getElementById('resultado').innerHTML = numero + numeroInsertInput;
+    }
 }
 function voltar() {
     numero = document.getElementById("resultado").innerHTML;

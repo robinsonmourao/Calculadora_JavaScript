@@ -18,7 +18,7 @@
     position:absolute;
     background-color: rgb(86, 137, 179);
     border-radius: 5%;
-    padding: 5px;    
+    padding: 10px;    
 }
 .botao{
     width: 50px;
@@ -99,18 +99,18 @@
 }*/
 
 #resultado{
-    width: 100%;    
-    background-color: rgb(146, 161, 147);
-    height: 60px;
+    width: 100%;
+    height: 50px;   
+    background-color: rgb(146, 161, 147);    
     color: black;    
     text-align:right;
-    margin-bottom: 5%;
     font-family: fonte digital;
-    font-weight:1000;
+    font-weight:900px;
     font-size:330%;
     
     transform: translate(-3px);
-    border-radius: 7%;   
+    border-radius: 5%;   
     border-style: solid;
     border-color: rgb(102, 102, 102);
+    padding-bottom: 10px;
 }
