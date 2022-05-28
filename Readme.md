@@ -15,11 +15,7 @@
 - [ ] Potenciação;
 - [ ] Regra de 3.
 
-### Pré-requisitos
-
-Você precisa fazer download do código [.ZIP](https://github.com/robinsonmourao/Calculadora_JavaScript/archive/refs/heads/main.zip) e abrir com qualquer navegador(browser) por exemplo [Mozilla Firefox](https://www.mozilla.org/pt-BR/firefox/download/thanks/).
-
-OU
+### Link
 
 https://robinsonmourao.github.io/Calculadora_JavaScript/
 
