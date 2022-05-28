@@ -19,6 +19,10 @@
 
 Você precisa fazer download do código [.ZIP](https://github.com/robinsonmourao/Calculadora_JavaScript/archive/refs/heads/main.zip) e abrir com qualquer navegador(browser) por exemplo [Mozilla Firefox](https://www.mozilla.org/pt-BR/firefox/download/thanks/).
 
+OU
+
+https://robinsonmourao.github.io/Calculadora_JavaScript/
+
 <h1 align="center">
   <img alt="Calculadora JuiceD" title="#NextLevelWeek" src="./Calculadora JuiceD.png" />
 </h1>
