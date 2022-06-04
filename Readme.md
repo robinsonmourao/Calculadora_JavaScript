@@ -7,6 +7,8 @@
 </h4>
 
 ### Recursos
+
+- [x] Parêntesis;
 - [x] Adição;
 - [x] Subtração;
 - [x] Multiplicação;
@@ -14,6 +16,7 @@
 - [ ] Radiciação;
 - [ ] Potenciação;
 - [ ] Regra de 3.
+- [ ] Input por teclado;
 
 ### Link
 

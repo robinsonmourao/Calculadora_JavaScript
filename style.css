@@ -37,7 +37,7 @@
     background-color: lime;
     color: black;
 }
-.botaoOperador{
+.botaoOperador, .abrirParentesis, .fecharParentesis{
     width: 50px;
     height: 50px;
     font-size: 25px;
