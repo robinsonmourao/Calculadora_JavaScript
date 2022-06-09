@@ -8,6 +8,7 @@
 
 ### Recursos
 
+- [x] Input por teclado(ainda falta corrigir);
 - [x] Parêntesis;
 - [x] Adição;
 - [x] Subtração;
@@ -16,14 +17,13 @@
 - [ ] Radiciação;
 - [ ] Potenciação;
 - [ ] Regra de 3.
-- [ ] Input por teclado;
 
 ### Link
 
 https://robinsonmourao.github.io/Calculadora_JavaScript/
 
 <h1 align="center">
-  <img alt="Calculadora JuiceD" title="#NextLevelWeek" src="./Calculadora JuiceD.png" />
+  <img alt="Calculadora JuiceD" src="./Calculadora JuiceD.png" />
 </h1>
 
 ### Autor
