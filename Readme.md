@@ -2,10 +2,6 @@
 
 <p align="center">Uma calculadora desenvolvida em JavaScript, CSS e HTML. Botões com tamanhos e cores confortáveis ao uso.</p>
 
-<h4 align="center"> 
-	🚧  Em construção...  🚧
-</h4>
-
 ### Recursos
 
 - [x] Input por teclado(ainda falta corrigir);
